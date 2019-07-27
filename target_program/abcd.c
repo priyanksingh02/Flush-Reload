@@ -16,8 +16,11 @@ void input_A() {
                    x *= y)
     REPEAT(x += y;
                    x *= y)
-
-    for (int i = 0; i < 30000; i++) {
+    /*  the exit condition for the loop translates
+        to a jle assembly instruction, which is spied upon.
+        same is applicable to all other input_X functions
+     */
+    for (int i = 0; i < 30000; i++) {  
         x *= y;
         x += y;
         x *= y;
@@ -95,6 +98,11 @@ void input_D() {
 }
 
 int main(int argc, char **argv) {
+    /*
+        aim is to repeatedly execute a code segment (like a loop) 
+        on a matching character input, increasing the probability
+        of spy program to detect the input while the loop runs 
+    */
     char input[16];
 
     while (1) {
@@ -106,8 +114,10 @@ int main(int argc, char **argv) {
             printf("You're doing it wrong\n");
         } else {
 
-
 #ifdef BYPASS_BRANCH_PREDICTION
+            /* __builtin_expect tells the compiler that the mentioned possbilities
+                under BYPASS_BRANCH_PREDICTION are much more likely than the rest
+             */
             if (__builtin_expect(input[0] == 'A', 0)) {
                 input_A();
             } else if (__builtin_expect(input[0] == 'B', 0)) {
