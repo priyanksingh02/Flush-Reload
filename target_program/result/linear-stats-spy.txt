@@ -1,0 +1,23 @@
+# started on Sun Dec 20 17:07:12 2020
+
+
+ Performance counter stats for process id '12875' (10 runs):
+
+            10,274      cache-references                                              ( +-  7.18% )
+               899      cache-misses              #    8.746 % of all cache refs      ( +- 11.04% )
+             1,018      LLC-prefetches                                                ( +-  6.19% )
+            28,467      L1-dcache-misses                                              ( +-  2.94% )
+
+         1.0008730 +- 0.0000329 seconds time elapsed  ( +-  0.00% )
+
+# started on Sun Dec 20 17:07:22 2020
+
+
+ Performance counter stats for process id '12875' (10 runs):
+
+    3,07,84,66,187      cycles                                                        ( +-  0.05% )
+    1,26,38,69,343      instructions              #    0.41  insn per cycle           ( +-  0.08% )
+                 0      page-faults                                                 
+
+        1.00084201 +- 0.00000980 seconds time elapsed  ( +-  0.00% )
+

@@ -1,0 +1,23 @@
+# started on Sun Dec 20 17:16:57 2020
+
+
+ Performance counter stats for process id '13174' (10 runs):
+
+          1,11,938      cache-references                                              ( +-  1.39% )
+            70,922      cache-misses              #   63.358 % of all cache refs      ( +-  1.98% )
+             1,058      LLC-prefetches                                                ( +-  5.87% )
+            49,377      L1-dcache-misses                                              ( +-  1.02% )
+
+         1.0009885 +- 0.0000301 seconds time elapsed  ( +-  0.00% )
+
+# started on Sun Dec 20 17:17:07 2020
+
+
+ Performance counter stats for process id '13174' (10 runs):
+
+    2,88,96,91,604      cycles                                                        ( +-  0.06% )
+    1,17,29,50,488      instructions              #    0.41  insn per cycle           ( +-  0.12% )
+                 0      page-faults                                                 
+
+         1.0009501 +- 0.0000118 seconds time elapsed  ( +-  0.00% )
+

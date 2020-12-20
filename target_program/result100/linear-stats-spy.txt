@@ -1,0 +1,23 @@
+# started on Sun Dec 20 17:48:38 2020
+
+
+ Performance counter stats for process id '13924' (100 runs):
+
+            12,090      cache-references                                              ( +-  2.83% )
+               635      cache-misses              #    5.250 % of all cache refs      ( +-  4.83% )
+             2,980      LLC-prefetches                                                ( +-  2.33% )
+            14,217      L1-dcache-misses                                              ( +-  3.30% )
+
+        1.00075244 +- 0.00000488 seconds time elapsed  ( +-  0.00% )
+
+# started on Sun Dec 20 17:50:18 2020
+
+
+ Performance counter stats for process id '13924' (100 runs):
+
+    3,07,61,69,287      cycles                                                        ( +-  0.02% )
+    1,26,19,31,199      instructions              #    0.41  insn per cycle           ( +-  0.02% )
+                 0      page-faults                                                 
+
+        1.00073832 +- 0.00000458 seconds time elapsed  ( +-  0.00% )
+

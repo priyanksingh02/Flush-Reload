@@ -1,0 +1,23 @@
+# started on Sun Dec 20 19:38:10 2020
+
+
+ Performance counter stats for process id '14655' (100 runs):
+
+          1,02,924      cache-references                                              ( +-  0.50% )
+            64,078      cache-misses              #   62.257 % of all cache refs      ( +-  0.51% )
+             1,676      LLC-prefetches                                                ( +-  1.19% )
+            48,531      L1-dcache-misses                                              ( +-  0.65% )
+
+        1.00094777 +- 0.00000604 seconds time elapsed  ( +-  0.00% )
+
+# started on Sun Dec 20 19:39:50 2020
+
+
+ Performance counter stats for process id '14655' (100 runs):
+
+    2,88,62,75,420      cycles                                                        ( +-  0.08% )
+    1,17,32,86,490      instructions              #    0.41  insn per cycle           ( +-  0.08% )
+                 0      page-faults                                                 
+
+          1.001595 +- 0.000251 seconds time elapsed  ( +-  0.03% )
+

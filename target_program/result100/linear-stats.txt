@@ -1,0 +1,23 @@
+# started on Sun Dec 20 17:41:55 2020
+
+
+ Performance counter stats for process id '13492' (100 runs):
+
+             7,883      cache-references                                              ( +-  7.57% )
+               277      cache-misses              #    3.509 % of all cache refs      ( +- 19.64% )
+               891      LLC-prefetches                                                ( +-  2.06% )
+            12,158      L1-dcache-misses                                              ( +-  7.18% )
+
+        1.00072928 +- 0.00000483 seconds time elapsed  ( +-  0.00% )
+
+# started on Sun Dec 20 17:43:35 2020
+
+
+ Performance counter stats for process id '13492' (100 runs):
+
+    3,18,73,14,650      cycles                                                        ( +-  0.01% )
+    1,30,82,79,838      instructions              #    0.41  insn per cycle           ( +-  0.02% )
+                 0      page-faults                                                 
+
+        1.00072030 +- 0.00000442 seconds time elapsed  ( +-  0.00% )
+

@@ -1,0 +1,23 @@
+# started on Sun Dec 20 17:06:51 2020
+
+
+ Performance counter stats for process id '12844' (10 runs):
+
+          1,13,538      cache-references                                              ( +-  1.40% )
+            71,931      cache-misses              #   63.354 % of all cache refs      ( +-  1.16% )
+             1,768      LLC-prefetches                                                ( +-  4.60% )
+            48,789      L1-dcache-misses                                              ( +-  0.65% )
+
+         1.0009660 +- 0.0000148 seconds time elapsed  ( +-  0.00% )
+
+# started on Sun Dec 20 17:07:01 2020
+
+
+ Performance counter stats for process id '12844' (10 runs):
+
+    2,89,61,12,543      cycles                                                        ( +-  0.00% )
+    1,17,70,80,671      instructions              #    0.41  insn per cycle           ( +-  0.02% )
+                 0      page-faults                                                 
+
+         1.0009845 +- 0.0000293 seconds time elapsed  ( +-  0.00% )
+

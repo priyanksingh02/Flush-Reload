@@ -1,0 +1,23 @@
+# started on Sun Dec 20 17:06:31 2020
+
+
+ Performance counter stats for process id '12813' (10 runs):
+
+            29,424      cache-references                                              ( +-  7.14% )
+               878      cache-misses              #    2.985 % of all cache refs      ( +- 25.23% )
+             1,042      LLC-prefetches                                                ( +-  4.04% )
+            36,219      L1-dcache-misses                                              ( +-  2.85% )
+
+        1.00083139 +- 0.00000879 seconds time elapsed  ( +-  0.00% )
+
+# started on Sun Dec 20 17:06:41 2020
+
+
+ Performance counter stats for process id '12813' (10 runs):
+
+    3,18,03,24,313      cycles                                                        ( +-  0.04% )
+    1,30,59,92,922      instructions              #    0.41  insn per cycle           ( +-  0.07% )
+                 0      page-faults                                                 
+
+         1.0008106 +- 0.0000129 seconds time elapsed  ( +-  0.00% )
+
