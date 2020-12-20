@@ -1,0 +1,111 @@
+===========
+Linear
+===========
+# started on Sun Dec 20 23:43:08 2020
+
+
+ Performance counter stats for process id '26545':
+
+    3,15,23,46,814      cycles                                                      
+            49,542      cache-references                                            
+             2,123      cache-misses              #    4.285 % of all cache refs    
+    1,29,52,65,329      instructions              #    0.41  insn per cycle         
+                 0      page-faults                                                 
+
+       1.000820415 seconds time elapsed
+
+# started on Sun Dec 20 23:43:09 2020
+
+
+ Performance counter stats for process id '26545' (10 runs):
+
+    3,17,41,35,343      cycles                                                        ( +-  0.07% )
+            19,917      cache-references                                              ( +-  9.48% )
+             1,089      cache-misses              #    5.467 % of all cache refs      ( +- 19.85% )
+    1,30,37,76,258      instructions              #    0.41  insn per cycle           ( +-  0.07% )
+                 0      page-faults                                                 
+
+         1.0008274 +- 0.0000165 seconds time elapsed  ( +-  0.00% )
+
+# started on Sun Dec 20 23:43:19 2020
+
+
+ Performance counter stats for process id '26545' (50 runs):
+
+    3,18,36,07,787      cycles                                                        ( +-  0.02% )
+             9,365      cache-references                                              ( +-  4.19% )
+               465      cache-misses              #    4.966 % of all cache refs      ( +- 12.10% )
+    1,30,57,01,905      instructions              #    0.41  insn per cycle           ( +-  0.03% )
+                 0      page-faults                                                 
+
+        1.00079483 +- 0.00000483 seconds time elapsed  ( +-  0.00% )
+
+# started on Sun Dec 20 23:44:09 2020
+
+
+ Performance counter stats for process id '26545' (100 runs):
+
+    3,17,49,11,988      cycles                                                        ( +-  0.03% )
+            16,637      cache-references                                              ( +-  4.73% )
+             2,139      cache-misses              #   12.854 % of all cache refs      ( +-  7.81% )
+    1,30,34,76,868      instructions              #    0.41  insn per cycle           ( +-  0.03% )
+                 0      page-faults                                                 
+
+        1.00084577 +- 0.00000411 seconds time elapsed  ( +-  0.00% )
+
+===========
+Auto
+===========
+
+# started on Sun Dec 20 23:48:03 2020
+
+
+ Performance counter stats for process id '26931':
+
+    3,16,80,11,353      cycles                                                      
+            35,450      cache-references                                            
+             1,758      cache-misses              #    4.959 % of all cache refs    
+    1,29,75,74,904      instructions              #    0.41  insn per cycle         
+                 0      page-faults                                                 
+
+       1.000889167 seconds time elapsed
+
+# started on Sun Dec 20 23:48:04 2020
+
+
+ Performance counter stats for process id '26931' (10 runs):
+
+    3,16,65,43,592      cycles                                                        ( +-  0.04% )
+            28,623      cache-references                                              ( +-  5.59% )
+             2,021      cache-misses              #    7.061 % of all cache refs      ( +- 24.12% )
+    1,29,78,58,740      instructions              #    0.41  insn per cycle           ( +-  0.05% )
+                 0      page-faults                                                 
+
+         1.0008603 +- 0.0000150 seconds time elapsed  ( +-  0.00% )
+
+# started on Sun Dec 20 23:48:14 2020
+
+
+ Performance counter stats for process id '26931' (50 runs):
+
+    3,17,60,84,377      cycles                                                        ( +-  0.03% )
+             7,248      cache-references                                              ( +-  5.74% )
+               899      cache-misses              #   12.405 % of all cache refs      ( +-  8.51% )
+    1,30,44,40,078      instructions              #    0.41  insn per cycle           ( +-  0.03% )
+                 0      page-faults                                                 
+
+        1.00084600 +- 0.00000507 seconds time elapsed  ( +-  0.00% )
+
+# started on Sun Dec 20 23:49:04 2020
+
+
+ Performance counter stats for process id '26931' (100 runs):
+
+    3,17,63,24,775      cycles                                                        ( +-  0.02% )
+             6,728      cache-references                                              ( +-  3.60% )
+               960      cache-misses              #   14.267 % of all cache refs      ( +-  6.84% )
+    1,30,45,48,985      instructions              #    0.41  insn per cycle           ( +-  0.02% )
+                 0      page-faults                                                 
+
+        1.00084624 +- 0.00000329 seconds time elapsed  ( +-  0.00% )
+
