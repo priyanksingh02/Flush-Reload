@@ -1,0 +1,24 @@
+# started on Sun Dec 20 20:48:58 2020
+
+
+ Performance counter stats for process id '19003' (100 runs):
+
+             7,551      cache-references                                              ( +-  4.55% )
+             1,761      cache-misses              #   23.320 % of all cache refs      ( +-  4.21% )
+             1,365      LLC-prefetches                                                ( +-  2.03% )
+          5,38,086      L1-dcache-misses                                              ( +-  8.11% )
+
+        1.00088108 +- 0.00000840 seconds time elapsed  ( +-  0.00% )
+
+# started on Sun Dec 20 20:50:38 2020
+
+
+ Performance counter stats for process id '19003' (100 runs):
+
+            13,267      cache-references                                              ( +-  4.00% )
+             1,568      cache-misses              #   11.820 % of all cache refs      ( +-  7.30% )
+               632      LLC-prefetches                                                ( +-  2.21% )
+          3,98,869      L1-dcache-misses                                              ( +-  5.99% )
+
+        1.00087986 +- 0.00000337 seconds time elapsed  ( +-  0.00% )
+
