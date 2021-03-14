@@ -11,7 +11,7 @@
 #include <sys/mman.h>
 #include <sys/time.h>
 
-#define THRESHOLD 120
+//#define THRESHOLD 120
 #define PROBE_TIME 5000000UL
 
 unsigned long old_time = 0;

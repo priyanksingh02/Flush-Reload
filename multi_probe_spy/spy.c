@@ -12,7 +12,7 @@
 #include <sys/time.h>
 #include <string.h>
 
-#define THRESHOLD 120
+//#define THRESHOLD 120
 #define PROBE_TIME 5000000UL
 
 unsigned long start_time = 0;
@@ -38,6 +38,7 @@ void flush_and_reload(void *addr, char *label) {
 }
 
 int main(int argc, char **argv) {
+    
     if (argc < 3)
         return 1;
     char *filename = argv[1];
