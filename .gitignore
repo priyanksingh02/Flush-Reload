@@ -1,0 +1,8 @@
+dataset/
+input_A.txt
+input_B.txt
+input_C.txt
+input_D.txt
+threshold.txt
+*.out
+tests/dataset

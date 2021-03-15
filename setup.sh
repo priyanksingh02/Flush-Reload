@@ -11,12 +11,15 @@ function main {
   fi
 
   echo "PROJECT DIR: $root_dir"
+  cd $root_dir || (echo "Error: cd into root_dir failed!" && exit)
   make_all
   calibrate
-  extract_address "$root_dir/target_program/auto" "input_A"
-  extract_address "$root_dir/target_program/auto" "input_B"
-  extract_address "$root_dir/target_program/auto" "input_C"
-  extract_address "$root_dir/target_program/auto" "input_D"
+  extract_address "target_program/auto" "input_A"
+  extract_address "target_program/auto" "input_B"
+  extract_address "target_program/auto" "input_C"
+  extract_address "target_program/auto" "input_D"
+
+  mkdir -p dataset
 }
 
 function calibrate {
