@@ -6,3 +6,9 @@ input_D.txt
 threshold.txt
 *.out
 tests/dataset
+calibration/calibration
+multi_probe_spy/spy
+single_probe_spy/spy
+target_program/abcd
+target_program/auto
+target_program/linear
